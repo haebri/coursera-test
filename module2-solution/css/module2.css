@@ -14,35 +14,23 @@ div {
     float: left;
     background-color: lightgray;
 }
-#p1 {
+.title {
     position: relative;
     top: 0;
     left: 80%;
     width: 20%;
-    background-color: pink;
     padding: 5px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
+}
+#p1 {
+    background-color: pink;
 }
 #p2 {
-    position: relative;
-    top: 0;
-    left: 80%;
-    width: 20%;
     background-color: red;
-    padding: 5px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
 }
 #p3 {
-    position: relative;
-    top: 0;
-    left: 80%;
-    width: 20%;
     background-color: tan;
-    padding: 5px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
 }
 @media (min-width: 992px) {
     .col-lg-3 {
