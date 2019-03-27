@@ -10,7 +10,6 @@ body {
     border-radius: 0;
     border: 0;
 }
-
 .navbar-brand {
     padding-top: 25px;
 }
@@ -39,13 +38,18 @@ body {
 #nav-list a:hover {
     background: #E7E7E7;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-}
 .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
+    border: 1px solid #61122f;
 }
 #collapsable-nav {
+    margin-top: 15px;
     border: 1px solid #61122f;
+    background-color: white;
+}
+.container {
+    color: black;
+}
+.container div {
+    background-color: #00cc99;
+    padding: 25px;
 }
